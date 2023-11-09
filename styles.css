@@ -1,0 +1,52 @@
+body {
+    background-color: black;
+  }
+  
+  #container {
+    background-color: rgb(38, 25, 91);
+    border: 5px solid white;
+    height: 275px;
+    width: 750px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  p {
+    color: white;
+    font-size: 24px;
+  }
+  
+  #userinput {
+    width: 100px;
+    margin: 25px auto;
+  }
+  
+  #btn {
+    margin: 25px auto auto 5px;
+  }
+  
+  @keyframes shake {
+    0% { transform: translate(0); }
+    25% { transform: translate(-5px, 5px); }
+    50% { transform: translate(5px, -5px); }
+    75% { transform: translate(-5px, -5px); }
+    100% { transform: translate(5px, 5px); }
+  }
+  
+  .shake {
+    animation: shake 0.5s;
+  }
+  
+
+  @keyframes shake-small {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-3px); }
+    50% { transform: translateX(3px); }
+    75% { transform: translateX(-3px); }
+    100% { transform: translateX(3px); }
+  }
+  
+  .shake-small {
+    animation: shake-small 0.07s;
+  }
+  
